@@ -28,6 +28,8 @@
 
 # OS generated files #
 ######################
+.bak
+.rkt~
 .DS_Store
 .DS_Store?
 ._*
