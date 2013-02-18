@@ -16,3 +16,11 @@
 ;25
 ;25
 ;29
+
+(define (procedure2 x y z)
+(if(< x y) (if (< x z)(sum-of-squares y z)(sum-of-squares x y))(if(< y z)(sum-of-squares x z)(sum-of-squares x y))
+)
+(procedure2 5 5 2)
+(procedure2 2 3 4)
+(procedure2 3 2 4)
+(procedure2 -5 -5 -2)
