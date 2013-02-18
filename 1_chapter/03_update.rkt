@@ -15,7 +15,7 @@
         (sum-of-squares x y)
         (sum-of-squares y z))
 ))
-(procedure_upd 1 1 4)
+(procedure_upd 1 0 4)
 (procedure_upd 2 3 4)
 (procedure_upd 3 2 4)
 (procedure_upd -5 -5 -2)
