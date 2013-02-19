@@ -8,9 +8,9 @@
 	
 (define (procedure_upd x y z)
   (if(>= x y) 
-     (if (>= y z)
-         (sum-of-squares x y)
-         (sum-of-squares x z))
+     (if(>= y z)
+        (sum-of-squares x y)
+        (sum-of-squares x z))
      (if(>= x z)
         (sum-of-squares x y)
         (sum-of-squares y z))))
